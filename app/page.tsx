@@ -119,7 +119,7 @@ export default function Page() {
             <div className="space-y-6">
               <p>
                 Not the city as a postcard, but as a living archive — a place
-                shaped by Ottoman, Greek, Armenian, Jewish-Sephardic, Balkan,
+                shaped by Ottoman, Greek, Armenian, Sephardic, Balkan,
                 Georgian, Anatolian and Mesopotamian memories.
               </p>
               <p>
