@@ -30,15 +30,15 @@ const dayNightHours = [
   {
     days: 'Tuesday — Friday',
     rows: [
-      { service: 'Wine & sake bar', time: 'Until 18:30' },
+      { service: 'Wine Bar', time: '15:00 – 18:30' },
       { service: 'Dinner', time: 'From 18:30' },
     ],
   },
   {
     days: 'Saturday — Sunday',
     rows: [
-      { service: 'Full food menu', time: 'From 14:00' },
-      { service: 'Bar menu', time: 'Until 18:30' },
+      { service: 'Full Food Menu', time: 'From 14:00' },
+      { service: 'Bar Snacks', time: 'Until 18:30' },
     ],
   },
 ]
@@ -119,24 +119,34 @@ export default function Page() {
             <div className="space-y-6">
               <p>
                 Not the city as a postcard, but as a living archive — a place
-                shaped by Ottoman, Greek, Armenian, Sephardic, Balkan,
-                Georgian, Anatolian and Mesopotamian memories.
+                shaped by Turkish, Greek, Armenian, Balkan, Georgian, Anatolian
+                and Mesopotamian memories.
               </p>
               <p>
-                Ralph Sason’s cooking carries these layers into the present
-                through his own language as a chef. The aim is not to recreate
-                old recipes as museum pieces, nor to present a nostalgic
-                version of “Turkish cuisine”.
+                For Ralph, this diversity was also part of everyday family
+                life. His father’s side of the family has Spanish roots, while
+                his mother’s side is Georgian. Each side brought its own
+                recipes, ingredients and traditions to the table. Growing up
+                surrounded by these different culinary cultures shaped his
+                palate and his understanding of food long before he became a
+                chef.
               </p>
             </div>
           </Reveal>
           <Reveal delay={280}>
             <div className="space-y-6">
               <p>
-                Instead, SASON brings together the multilayered food cultures
-                of these lands. Different traditions, ingredients and memories
-                may meet on the same plate — not as separate references, but
-                as layers that blend, transform and speak to one another.
+                Ralph Sason’s cooking carries these influences into the present
+                through his own language as a chef. The aim is not to recreate
+                old recipes as museum pieces, nor to present a nostalgic
+                version of “Turkish cuisine”.
+              </p>
+              <p>
+                Instead, SASON brings together the food cultures of these lands
+                and the recipes passed through generations. Different
+                traditions, ingredients and memories may meet on the same plate
+                — not as separate references, but as flavours that blend,
+                transform and speak to one another.
               </p>
               <p>
                 At its heart, SASON is a bridge: between Istanbul and Athens,
@@ -242,21 +252,22 @@ export default function Page() {
           </Reveal>
           <Reveal delay={80}>
             <h2 className="max-w-3xl text-balance font-serif text-4xl leading-[1.05] tracking-tight md:text-6xl">
-              Wine &amp; sake bar by day, dining by night
+              Wine bar by day, dining by night
             </h2>
           </Reveal>
           <div className="mt-10 max-w-2xl space-y-6 text-base leading-relaxed text-muted-foreground md:text-lg">
             <Reveal delay={140}>
               <p>
-                From Tuesday to Sunday, SASON opens in the afternoon with its
-                wine &amp; sake bar.
+                From Tuesday to Friday, SASON opens at 15:00 as a wine bar,
+                offering a relaxed afternoon of wine, small plates and
+                conversation.
               </p>
             </Reveal>
             <Reveal delay={180}>
               <p>
-                The bar menu is available until 18:30 every day: smaller
-                plates, wine-friendly food, sake pairings and seasonal
-                preparations from the kitchen.
+                Our bar snacks are available until 18:30, featuring smaller
+                plates, wine-friendly dishes and seasonal preparations from the
+                kitchen.
               </p>
             </Reveal>
           </div>
@@ -290,9 +301,9 @@ export default function Page() {
 
           <Reveal delay={180}>
             <p className="mt-14 max-w-xl font-serif text-2xl italic leading-snug md:text-3xl">
-              Afternoons at SASON are relaxed, built around wine, sake, small
-              plates and conversation. As the evening begins, the room moves
-              into a fuller dinner experience.
+              Afternoons at SASON are relaxed, built around wine, bar snacks and
+              conversation. As evening begins, the room moves into a fuller
+              dinner experience.
             </p>
           </Reveal>
         </div>
@@ -319,11 +330,17 @@ export default function Page() {
                 integrity and expressive quality.
               </p>
               <p>
-                The cooking moves through old Istanbul, Anatolia, Mesopotamia,
-                the Aegean, the Caucasus, the Levant and the wider
-                Mediterranean. Spices, medicinal and aromatic herbs are used
-                not as decoration, but as carriers of history, memory and
-                cultural exchange.
+                Türkiye’s remarkable geographical and climatic diversity has
+                shaped countless regional food traditions. From its coastlines
+                to its mountains and inland plains, each region carries its own
+                ingredients, techniques and ways of cooking. This richness,
+                together with Istanbul’s culinary heritage and Ralph’s family
+                recipes, finds its way into the menu in different forms.
+              </p>
+              <p>
+                Spices, medicinal and aromatic herbs are used not as
+                decoration, but as carriers of history, memory and cultural
+                exchange.
               </p>
             </div>
           </Reveal>
@@ -345,7 +362,7 @@ export default function Page() {
       <section id="wine" className="mx-auto max-w-5xl px-6 py-28 md:px-10 md:py-44">
         <Reveal>
           <p className="mb-10 text-xs uppercase tracking-[0.35em] text-muted-foreground">
-            Wine &amp; Sake
+            Wine
           </p>
         </Reveal>
         <Reveal delay={80}>
@@ -365,8 +382,8 @@ export default function Page() {
           <Reveal delay={220}>
             <p>
               Turkish, Greek, Italian, Lebanese and Georgian wines sit naturally
-              alongside a small sake selection, chosen for pairing, texture and
-              quiet complexity.
+              alongside one another, chosen for their individuality, texture
+              and connection to food.
             </p>
           </Reveal>
         </div>
