@@ -15,11 +15,11 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   title: 'SASON — The Table as Archive | Pangrati, Athens',
   description:
-    'A new restaurant in Athens by Ralph Sason. Rooted in Istanbul, shaped by Anatolia, Mesopotamia and the Mediterranean. Opening November 2026 in Pangrati.',
+    'A new restaurant in Athens by Ralph Sason. Rooted in Istanbul, shaped by Anatolia, Mesopotamia and the Mediterranean. Opening December 2026 in Pangrati.',
   openGraph: {
     title: 'SASON — The Table as Archive',
     description:
-      'A product-driven restaurant in Pangrati, Athens, built around memory, seasonality and the shared rituals of the table. Opening November 2026.',
+      'A product-driven restaurant in Pangrati, Athens, built around memory, seasonality and the shared rituals of the table. Opening December 2026.',
     type: 'website',
   },
 }

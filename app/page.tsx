@@ -62,7 +62,7 @@ export default function Page() {
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-16 md:px-10 md:pb-24">
           <Reveal>
             <p className="mb-6 text-xs uppercase tracking-[0.45em] text-background/80">
-              Pangrati, Athens — Opening November 2026
+              Pangrati, Athens — Opening December 2026
             </p>
           </Reveal>
           <Reveal delay={120}>
@@ -561,7 +561,7 @@ export default function Page() {
                   Pangrati, Athens
                 </p>
                 <p className="mt-6 text-xs uppercase tracking-[0.2em] text-muted-foreground">
-                  Opening November 2026
+                  Opening December 2026
                 </p>
               </div>
               <div className="bg-background p-10">
@@ -603,7 +603,7 @@ export default function Page() {
           </p>
           <div className="flex flex-col items-center gap-3 text-xs uppercase tracking-[0.3em] text-primary-foreground/70">
             <span>Pangrati, Athens</span>
-            <span>Opening November 2026</span>
+            <span>Opening December 2026</span>
             <a
               href="https://instagram.com/sason_athens"
               target="_blank"
